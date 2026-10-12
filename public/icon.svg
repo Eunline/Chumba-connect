@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A6B3C" />
+      <stop offset="100%" stop-color="#0f4425" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623" />
+      <stop offset="100%" stop-color="#e08e0b" />
+    </linearGradient>
+  </defs>
+  <!-- Background with squircle safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  
+  <!-- Subtle roof ridge glow -->
+  <path d="M256 90 L410 216 L380 238 L256 136 L132 238 L102 216 Z" fill="url(#gold)" opacity="0.95"/>
+  
+  <!-- Main House Structure -->
+  <path d="M256 120 L390 230 V392 C390 404 380 414 368 414 H144 C132 414 122 404 122 392 V230 Z" fill="#ffffff" />
+  
+  <!-- House Doorway & Arch -->
+  <path d="M220 414 V290 C220 274 236 260 256 260 C276 260 292 274 292 290 V414 Z" fill="url(#grad)" />
+  
+  <!-- Window Left -->
+  <rect x="160" y="270" width="40" height="40" rx="8" fill="#F5A623" />
+  
+  <!-- Window Right -->
+  <rect x="312" y="270" width="40" height="40" rx="8" fill="#F5A623" />
+  
+  <!-- Connectivity Signal Waves over roof -->
+  <path d="M200 80 A 70 70 0 0 1 312 80" stroke="url(#gold)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8" />
+  <circle cx="256" cy="74" r="8" fill="#F5A623" />
+  
+  <!-- Badge Ribbon "TZ" -->
+  <rect x="340" y="340" width="120" height="48" rx="24" fill="url(#gold)" />
+  <text x="400" y="372" font-family="system-ui, sans-serif" font-weight="900" font-size="24" fill="#ffffff" text-anchor="middle">TZ</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "ChumbaConnect TZ",
+  "description": "Mtandao wa vyumba vya chuo Tanzania kwa wanafunzi na wenye nyumba. Tafuta au orodhesha vyumba karibu na campus, malipo ya M-Pesa, Airtel, Tigo/Mixx na Halopesa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
